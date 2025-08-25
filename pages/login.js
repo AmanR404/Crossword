@@ -1,7 +1,7 @@
 import React from 'react'
 import {getAuth, signInWithEmailAndPassword, GoogleAuthProvider, signInWithPopup} from 'firebase/auth'
 import { useState } from 'react'
-import {app} from './firebase'
+import {app} from '../firebase'
 import { useRouter } from 'next/router'
 
 const signup = () => {
