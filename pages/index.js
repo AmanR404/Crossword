@@ -157,10 +157,10 @@ export default function Home() {
 
   }, [aiAnswer])
 
-  // useEffect(() => {
-  //   aiOpponent()
+   useEffect(() => {
+    aiOpponent()
 
-  // }, [questions])
+  }, [questions])
 
   useEffect(() => {
   messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
