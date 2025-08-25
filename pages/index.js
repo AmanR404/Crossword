@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react"
 import {getAuth, onAuthStateChanged, signOut} from 'firebase/auth'
-import {app} from './firebase'
+import {app} from '../firebase'
 import { useRouter } from "next/router";
 
 export default function Home() {
